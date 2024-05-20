@@ -1,0 +1,35 @@
+#sec1{
+    background-color: aqua;
+    color: red;
+    height: 100vh;
+}
+
+#sec2{
+    background-color: rgb(175, 119, 119);
+    color: red;
+    height: 100vh
+}
+
+#sec3{
+    background-color: darkgreen;
+    color: red;
+    height: 100vh;
+}
+
+#sec4{
+ background-color: deeppink;
+ color: red;
+ height: 100vh;
+}
+
+#sec5{
+    background-color: darkgoldenrod;
+    color: red;
+    height: 100vh;
+}
+
+#page{ 
+    font-size: 70px;
+ background-color: black;
+  margin: 0px;
+}

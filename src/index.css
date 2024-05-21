@@ -1,35 +1,19 @@
-#sec1{
-    background-color: aqua;
-    color: red;
+
+.container,.area{
     height: 100vh;
+    background-color: brown;
 }
 
-#sec2{
-    background-color: rgb(175, 119, 119);
-    color: red;
-    height: 100vh
+.container{
+    overflow: auto;
+    scroll-snap-type: y mandatory;
 }
 
-#sec3{
-    background-color: darkgreen;
-    color: red;
-    height: 100vh;
-}
-
-#sec4{
- background-color: deeppink;
- color: red;
- height: 100vh;
-}
-
-#sec5{
-    background-color: darkgoldenrod;
-    color: red;
-    height: 100vh;
+.area{
+    scroll-snap-align: start;
 }
 
 #page{ 
     font-size: 70px;
- background-color: black;
   margin: 0px;
 }
